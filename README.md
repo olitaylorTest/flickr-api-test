@@ -1,6 +1,6 @@
 # Flickr API Explorer
 
-A React + Typescript SPA to view Flickr images. There is search functionality that queries the API and a random search feature that used a seperate API to get a random word.
+A React + Typescript SPA to view Flickr images. There is search functionality that queries the API and a random search feature that uses a seperate API to get a random word.
 
 Deployed to: [https://flickr-explorer.netlify.app](https://flickr-explorer.netlify.app)
 
