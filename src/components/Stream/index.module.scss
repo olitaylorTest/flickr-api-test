@@ -1,0 +1,16 @@
+.streamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+
+  @media screen and (min-width: 520px) {
+    padding: 20px;
+  }
+}
+
+.streamStatus {
+  display: block;
+  margin: 20px;
+  text-align: left;
+  font-weight: bold;
+}

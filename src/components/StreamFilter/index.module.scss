@@ -1,0 +1,41 @@
+.streamFilter {
+  display: inline-flex;
+  padding: 5px;
+
+  @media screen and (min-width: 520px) {
+    padding: 10px 20px;
+  }
+
+  label {
+    visibility: hidden;
+    text-indent: -9999px;
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid var(--grey-light);
+    border-right: none;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  button {
+    padding: 10px;
+    border: 1px solid var(--grey-light);
+    background: var(--purple-dark);
+    color: var(--white);
+    border-left: none;
+    border-radius: 0;
+
+    &:disabled {
+      opacity: .9;
+    }
+
+    &.streamFilterClear {
+      background: var(--grey-dark);
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+}
