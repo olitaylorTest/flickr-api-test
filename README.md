@@ -2,7 +2,7 @@
 
 A React + Typescript SPA to view Flickr images. 
 
-There is search functionality that queries the API and a random search feature that used a seperate API to get a random word.
+There is search functionality that queries the API and a random search feature that uses a seperate API to get a random word.
 
 Selecting a tag on an image will search the API for more images with that tag.
 
